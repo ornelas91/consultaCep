@@ -1,0 +1,16 @@
+body {
+  background-image: url("../img/mapa.jpg");
+}
+
+h1 {
+  color: aliceblue;
+}
+
+button {
+  margin-top: 10px;
+}
+
+.list-group-item span{
+  display: block;
+  width: 100%;
+}

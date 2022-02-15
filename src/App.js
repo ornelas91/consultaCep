@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import TrackCEP from './TrackCep';
+import TrackCEP from './pages/TrackCep';
 
 function App() {
 
