@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
 import TrackCEP from './pages/TrackCep';
+import './index.css';
 
 function App() {
 
@@ -29,10 +30,13 @@ function App() {
     <div className='container'>
       <h1>Buscar CEP</h1>
       <form onSubmit={submitHandler}>
-        <div>
-          <input type='text' name='tracking' className='form-control'/>
+        <div className='input'>
+          <input type='text' name='tracking' className='form-control' placeholder='CEP'/>
         </div>
         <button type='submit' name='TrackCEP' className='btn btn-primary'>Buscar</button>
+        <div>
+          
+        </div>
       </form>
       <TrackCEP events={events}/>
     </div>
